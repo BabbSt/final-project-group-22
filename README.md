@@ -14,5 +14,7 @@ For each of these pages we have a outer template file in the views/ files (ex: 4
 
 We have the partials folder with all of the content that will stay the same structure but just have different content within it (like the twits we did).
 
+There will be ONE css file so we can keep styles consistant. Please CLONE THESE FILES and use them rather than upload your own files and adjusting them later!
 
+Lets keep the fonts and text styles the same as much as possible. These are the fonts we are using:
 
