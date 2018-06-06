@@ -10,4 +10,4 @@ We have the following pages:
     Collab
     Blog Page
     404 Page
-For each of these pages we have a outer template file in the views/ files (ex: 404Page.handlebars)
+For each of these pages we have a outer template file in the views/ files (ex: 404Page.handlebars) ok
