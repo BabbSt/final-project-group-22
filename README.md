@@ -12,4 +12,7 @@ We have the following pages:
     404 Page<br>
 For each of these pages we have a outer template file in the views/ files (ex: 404Page.handlebars)
 
+We have the partials folder with all of the content that will stay the same structure but just have different content within it (like the twits we did).
+
+
 
