@@ -1,0 +1,28 @@
+body{
+  background-color: #fbfbfb;
+  margin: 0px;
+}
+/*font-family: 'Cookie', cursive;
+font-family: 'Pontano Sans', sans-serif;*/
+.join{
+  margin-left: 40%;
+  font-family: 'Cookie', cursive;
+  font-size: 50px;
+}
+
+.w{
+  font-family: 'Pontano Sans', sans-serif;
+  margin-left: 30%;
+}
+
+.w-blurb{
+  font-family: 'Pontano Sans', sans-serif;
+  margin-left: 33%;
+  margin-right: 33%;
+}
+
+.membership-link a{
+  font-family: 'Pontano Sans', sans-serif;
+  color: #86324a;
+  margin-left: 33%
+}
