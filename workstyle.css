@@ -2,30 +2,30 @@ body{
   margin: 0px;
   background-color: #fbfbfb;
 }
-/*font-family: 'Patua One', cursive; titles
-font-family: 'Comfortaa', cursive; text
-font-family: Maven Pro, sans-serif; links */
+/*font-family: 'Cookie', cursive;
+font-family: 'Pontano Sans', sans-serif;
+font-family: 'Cantarell', sans-serif;*/
 
 .company-name{
-  font-family: 'Comfortaa', cursive;
-  font-size: 30px;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 40px;
   margin: 0px;
 }
 .company-blurb{
-  font-family: 'Maven Pro', sans-serif;
+  font-family: 'Pontano Sans', sans-serif;
   font-size: 20px;
   margin: 0px;
 }
 
 .learn-more{
-  font-family: 'Maven Pro', sans-serif;
+  font-family: 'Cantarell', sans-serif;
   font-size: 25px;
   font-weight: bold;
   margin:0px;
 }
 
 .company-website{
-  font-family: 'Maven Pro', sans-serif;
+  font-family: 'Pontano Sans', sans-serif;
   font-size: 20px;
   margin:0px;
 }
@@ -43,8 +43,8 @@ font-family: Maven Pro, sans-serif; links */
 }
 
 .work-with-block{
-  font-family: 'Patua One', cursive;
-  font-size: 30px;
+  font-family: 'Cookie', cursive;
+  font-size: 45px;
   margin-top: 10px;
 }
 .company-block{
@@ -54,7 +54,6 @@ font-family: Maven Pro, sans-serif; links */
   vertical-align: top;
   margin: 40px;
 }
-
 
 .img-block{
   position: relative;
@@ -66,4 +65,5 @@ font-family: Maven Pro, sans-serif; links */
 .img-block img{
   width: 100%;
   height: auto;
+  border-radius: 20px;
 }
