@@ -23,6 +23,77 @@
   display: inline-block;
 }
 
+
+/*Kaitlin CSS*/
+/*workstyle.css*/
+body{
+  margin: 0px;
+  background-color: #fbfbfb;
+}
+
+.company-name{
+  font-family: 'Cantarell', sans-serif;
+  font-size: 40px;
+  margin: 0px;
+}
+.company-blurb{
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.learn-more{
+  font-family: 'Cantarell', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin:0px;
+}
+
+.company-website{
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 20px;
+  margin:0px;
+}
+
+.company-website a{
+  color: #86324a
+}
+
+.colab-with{
+  margin: 20px;
+}
+
+.work-with{
+  margin: 20px;
+}
+
+.work-with-block{
+  font-family: 'Cookie', cursive;
+  font-size: 45px;
+  margin-top: 10px;
+}
+.company-block{
+  height: 450px;
+  width: 600px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 40px;
+}
+
+.img-block{
+  position: relative;
+  top: 25px;
+  left: 275px;
+  width: 200px;
+}
+
+.img-block img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+/*joinstyle.css*/
 body{
   background-color: #fbfbfb;
   margin: 0px;
@@ -34,7 +105,7 @@ font-family: 'Pontano Sans', sans-serif;*/
   font-family: 'Cookie', cursive;
   font-size: 50px;
 }
-/* Kaitlin's css*/
+
 .w{
   font-family: 'Pontano Sans', sans-serif;
   margin-left: 30%;
@@ -52,61 +123,95 @@ font-family: 'Pontano Sans', sans-serif;*/
   margin-left: 33%
 }
 
-
-/*font-family: 'Patua One', cursive; titles
-font-family: 'Comfortaa', cursive; text
-font-family: Maven Pro, sans-serif; links */
-
-.company-name{
-  font-family: 'Comfortaa', cursive;
-  font-size: 30px;
+/*blog.css*/
+body{
+  background-color: #fbfbfb;
   margin: 0px;
 }
-.company-blurb{
-  font-family: 'Maven Pro', sans-serif;
+
+.all-block{
+  display: block;
+}
+
+.blog-title{
+  font-size: 40px;
+  font-family: 'Cookie', cursive;
+  margin: 30px;
+}
+
+.blog-content{
+  font-family: 'Pontano Sans', sans-sans-serif;
   font-size: 20px;
-  margin: 0px;
+  margin: 10px;
 }
 
-.learn-more{
-  font-family: 'Maven Pro', sans-serif;
-  font-size: 25px;
+.blog-comments{
+  background-color: #f2f2f2;
+}
+.comment{
+  font-family: 'Pontano Sans', sans-sans-serif;
+  background-color: #fbfbfb;
+  margin-right: 300px;
+  margin-left: 300px;
+  border-style: solid;
+  border-width: thin;
+}
+
+.comment-author{
   font-weight: bold;
-  margin:0px;
+  margin-left: 5px;
 }
 
-.company-website{
-  font-family: 'Maven Pro', sans-serif;
-  font-size: 20px;
-  margin:0px;
+.comment-content{
+  margin-left: 5px;
 }
 
-.company-website a{
-  color: #86324a
-}
-
-.colab-with{
-  margin: 20px;
-}
-
-.company-block{
-  height: 450px;
-  width: 600px;
-  display: inline-block;
-  vertical-align: top;
-  margin: 40px;
-}
-
-
-.img-block{
-  position: relative;
-  top: 25px;
-  left: 275px;
-  width: 200px;
-}
-
-.img-block img{
-  width: 100%;
-  height: auto;
+#create-comment-button{
+  margin: 5px;
+  border: none;
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  background-color: #ba55d3;
+  color: #FFF;
+  cursor: pointer;
   border-radius: 30px;
+  margin-left: 950px;
+}
+
+.modal-body {
+  padding: 0px;
+}
+
+.comment-input-element {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.comment-input-element label {
+  font-weight: 600;
+  flex: 1 75px;
+  margin-right: 10px;
+  font-family: 'Pontano Sans', sans-sans-serif
+}
+
+.comment-input-element{
+  width: 700px;
+  margin-left: 300px;
+}
+.comment-input-element input,
+.comment-input-element textarea {
+  flex: 6 200px;
+  font-size: 20px;
+  border: 1px solid #aaa;
+  width: 100px;
+}
+
+.comment-text-element textarea {
+  min-height: 64px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 0px;
 }
