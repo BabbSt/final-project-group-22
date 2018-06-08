@@ -69,8 +69,9 @@ body{
 
 .work-with-block{
   font-family: 'Cookie', cursive;
-  font-size: 45px;
+  font-size: 80px;
   margin-top: 10px;
+  weight: lighter;
 }
 .company-block{
   height: 450px;
