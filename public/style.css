@@ -35,7 +35,7 @@ a{
 	width: 250px;
 }
 footer{
-	position:absolute;
+	position: static;
 	bottom:0;
 	right:0;
 	left:0;
@@ -47,9 +47,38 @@ footer{
 .smitem {
   display: block;
   margin: 5px;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	padding-top: 5px;
 }
 
+.smlist{
+	margin:0px;
+}
 
+.HomeImage{
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	margin-left: 500px;
+}
+
+.home-blurb{
+	font-family: 'Pontano Sans', sans-serif;
+	position: absolute;
+	margin-top: 320px;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	font-size: 20px;
+}
+/*404 page*/
+.block404{
+	font-family: 'Cookie', cursive;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 50px;
+}
 /*Kaitlin CSS*/
 /*workstyle.css*/
 .company-name{
@@ -116,10 +145,7 @@ footer{
 }
 
 /*joinstyle.css*/
-body{
-  background-color: #fbfbfb;
-  margin: 0px;
-}
+
 /*font-family: 'Cookie', cursive;
 font-family: 'Pontano Sans', sans-serif;*/
 .join{
@@ -146,10 +172,7 @@ font-family: 'Pontano Sans', sans-serif;*/
 }
 
 /*blog.css*/
-body{
-  background-color: #fbfbfb;
-  margin: 0px;
-}
+
 
 .all-block{
   display: block;

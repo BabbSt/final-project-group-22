@@ -8,9 +8,13 @@ app.set('view engine', 'handlebars');
 
 var port = process.env.PORT || 3000;
 
-/*app.get('/', function(req, res, next){
+app.get('/', function(req, res, next){
+  res.status(200).render('homePage');
+});
 
-});*/
+app.get('/home', function(req, res, next){
+  res.status(200).render('homePage');
+});
 
 app.get('/joinusPage', function(req, res, next){
   res.status(200).render('joinusPage');
@@ -32,7 +36,7 @@ app.get('/joinusPage', function(req, res, next){
 app.use(express.static('public'));
 
 app.get('*', function (req, res) {
-  //res.status(404).render('404');
+  res.status(404).render('404Page');
 });
 
 
