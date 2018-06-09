@@ -1,1 +1,21 @@
-
+<main class="all-blog">
+  {{#each blogInfo}}
+    {{>blogpostContent this}}
+  {{/each}}
+  <div class="all-comment-stuff">
+    {{#each comment}}
+      {{>blogcommentsContent this}}
+    {{/each}}
+    <div class="leave-a-comment">
+      <div class="comment-input-element">
+        <label for="comment-text-input">Comment text</label>
+        <textarea id="comment-text-input"></textarea>
+      </div>
+      <div class="comment-input-element">
+        <label for="comment-attribution-input">Author</label>
+        <input type="text" id="comment-attribution-input">
+      </div>
+      <button type="button" id="create-comment-button"><i class="fa fa-comment-dots"></i></button>
+    </div>
+  </div>
+</main>
