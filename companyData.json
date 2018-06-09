@@ -1,0 +1,73 @@
+[
+  {
+     "companyName":"Boys & Girls Club of Corvallis",
+     "companyContent":"The Boys & Girls Club of America is a non-profit whose goal is to reach all young people. Our club works with the club locally in Corvallis. We want to help teach children about Computer Science and Technology.",
+     "fullURL":"http://www.bgccorvallis.org/",
+     "niceURL":"www.bgccorvallis.org",
+     "imagePath":"images/boys_and_girls.jpg"
+  },
+
+  {
+     "companyName":"Chick Tech",
+     "companyContent":"Chick Tech promotes the retention of women studying technology and women in technology careers. They want to empower women and increase the confidence of women in tech. Capacity we work with them??",
+     "fullURL":"https://corvallis.chicktech.org/",
+     "niceURL":"corvallis.checktech.org",
+     "imagePath":"images/chick_tech.jpg"
+  },
+
+  {
+     "companyName":"OSU Department of EECS",
+     "companyContent":"The college of EECS helps our club many different ways. They have connected us with fellow Beavers, including employees of Google, along with providing us with many resources.",
+     "fullURL":"http://eecs.oregonstate.edu/",
+     "niceURL":"eecs.oregonstate.edu",
+     "imagePath":"images/eecs.png"
+  },
+
+  {
+     "companyName":"Google",
+     "companyContent":"Google is a leading company in many areas related to tech. They are most known for their famous search engine. Google has hosted multiple workshops with us  including \"Games with Google\".",
+     "fullURL":"https://www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header",
+     "niceURL":"www.google.com",
+     "imagePath":"images/google.jpg"
+  },
+
+  {
+     "companyName":"Garmin",
+     "companyContent":"Garmin is a tech company that specializes in many areas. They work in planes and automotives, sports, and other areas. Garmin has hosted multiple workshops with us to teach us about life at Garmin and working in tech.",
+     "fullURL":"https://www.garmin.com/en-US/",
+     "niceURL":"www.garmin.com",
+     "imagePath":"images/garmin.jpg"
+  },
+
+  {
+     "companyName":"Facebook",
+     "companyContent":"Facebook is a tech giant known for it' s contributions to social media. What has facebook done?????'",
+     "fullURL":"https://www.facebook.com/",
+     "niceURL":"www.facebook.com",
+     "imagePath":"images/facebook.png"
+  },
+
+  {
+     "companyName":"Esri",
+     "companyContent":"Esri is a GIS mapping software, spatial data analytics, and location platform. They hosted an awesome workshop with us and brought a ton of company swag.",
+     "fullURL":"https://www.esri.com/en-us/home",
+     "niceURL":"www.esri.com",
+     "imagePath":"images/esri.jpg"
+  },
+
+  {
+     "companyName":"Amazon",
+     "companyContent":"Amazon is a tech company specializing in online shopping. They came to us in the Fall to talk about what they look for in employees and some of the projects they are working on.",
+     "fullURL":"https://www.amazon.com/",
+     "niceURL":"www.amazon.com",
+     "imagePath":"images/amazon.png"
+  },
+
+  {
+     "companyName":"HP",
+     "companyContent":"HP creates labtops, desktops, printers and more. They have hosted amazing events where students could go see the HP campus, learn from employees, and go see an early showing of the movie A Wrinkle in Time.",
+     "fullURL":"https://www8.hp.com/us/en/home.html",
+     "niceURL":"hp.com",
+     "imagePath":"images/hp.png"
+  },
+]
