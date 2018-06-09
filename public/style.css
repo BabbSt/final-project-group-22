@@ -80,14 +80,12 @@ a{
 .HomeImage{
 	width: 600px;
 	height: 400px;
-	position: absolute;
-	margin-left: 500px;
+	display: block;
+  margin: 0 auto;
 }
 
 .home-blurb{
 	font-family: 'Pontano Sans', sans-serif;
-	position: absolute;
-	margin-top: 420px;
 	text-align: center;
 	margin-left: 200px;
 	margin-right: 200px;
