@@ -8,9 +8,9 @@ app.set('view engine', 'handlebars');
 
 var port = process.env.PORT || 3000;
 
-app.get('/', function(req, res, next){
+/*app.get('/', function(req, res, next){
 
-});
+});*/
 
 app.get('/joinusPage', function(req, res, next){
   res.status(200).render('joinusPage');
