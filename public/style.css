@@ -66,7 +66,7 @@ footer{
 .home-blurb{
 	font-family: 'Pontano Sans', sans-serif;
 	position: absolute;
-	margin-top: 320px;
+	margin-top: 420px;
 	text-align: center;
 	margin-left: 200px;
 	margin-right: 200px;
@@ -182,12 +182,22 @@ font-family: 'Pontano Sans', sans-serif;*/
   font-size: 40px;
   font-family: 'Cookie', cursive;
   margin: 30px;
+	text-align: center;
 }
 
 .blog-content{
   font-family: 'Pontano Sans', sans-sans-serif;
   font-size: 20px;
   margin: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.blog-image{
+	height: 300px;
+	width: 400px;
+	display: block;
+  margin: 0 auto;
 }
 
 .blog-comments{
