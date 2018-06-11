@@ -6,7 +6,8 @@
   "dependencies": {
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "handlebars": "^4.0.11"
+    "handlebars": "^4.0.11",
+    "mongodb": "^3.0.10"
   },
   "devDependencies": {},
   "scripts": {
@@ -15,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hillkai/final-project-group-22.git"
+    "url": "git+https://github.com/babbst/final-project-group-22.git"
   },
   "author": "Kaitlin Hill Stephanie Babb Sumegha Aryal",
   "license": "MIT",
