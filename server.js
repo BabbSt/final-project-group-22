@@ -60,16 +60,13 @@ app.get('/partnerships', function(req, res, next){
 	}
   });
 });
-
-var comment =[2]
-comment[0] =  {
-  author: "bob",
+/*  author: "bob",
   commentContent: "asdklfhewaejasjdbfjasd"
 }
 comment[1] =  {
   author: "Susan",
   commentContent: "Great photo!"
-}
+}*/
 var tempt = [2];
  tempt[0] = {
   title: "this blog",
