@@ -17,7 +17,7 @@ var mongoDB =null;
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 3028;
 
 app.get('/', function(req, res, next){
   res.status(200).render('homePage');
@@ -79,10 +79,24 @@ tempt[1] = {
  content: "even more text to test this thing"
 }
 app.get('/blog', function(req, res, next){
-  res.status(200).render('blogPage',{
-    blogInfo: tempt,
-    comment: comment
-  })
+  var blogCollection=mongoDB.collection('blogContent');
+  var commentCollection=mongoDB.collection('comments');
+  blogCollection.find().toArray(function (err, blogContent) {
+     	if(err){
+            	res.status(500).send("Error fetching blog content from DB.");
+	}else{
+  		commentCollection.find().toArray(function (err, comments) {
+      			if (err) {
+            		res.status(500).send("Error fetching blog comments from DB.");
+	 		} else {
+  				res.status(200).render('blogPage',{
+    					blogInfo: blogContent,
+    					comment: comments
+  				});
+			}
+ 		 });
+	}
+  });
 });
 
 app.use(express.static('public'));
@@ -101,7 +115,7 @@ MongoClient.connect(mongoURL, function (err, client) {
       throw err;
     }
   mongoDB = client.db(mongoDBName);
-    app.listen(mongoPort, function () {
-        console.log("== Server listening on port", mongoport);
+    app.listen(port, function () {
+        console.log("== Server listening on port", port);
 	  });
 });
