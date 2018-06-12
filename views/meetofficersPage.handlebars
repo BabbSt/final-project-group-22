@@ -1,8 +1,11 @@
 
 <main class="officer-container">
 	<div class="page-content">
-		{{#each officer}}
-			{{ > officer-content}}
+	<h2 class="officers-subtitle">
+		ACM-W Founding Officers
+	</h2>
+		{{#each content}}
+			{{>officersContent this}}
 		{{/each}}
 	</div>
 </main>

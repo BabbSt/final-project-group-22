@@ -78,14 +78,22 @@ app.post('/blog/addComment' , function (req, res, next) {
 	} else {
 	    res.status(400).send("Request needs a JSON body with author and comment.")
 	}
-app.get('/meetofficers', function(req, res, next){
-  res.status(200).render('meetofficersPage',{
-	content: officerData
+});
+app.get('/officers', function(req, res, next){
+  var officersCollection=mongoDB.collection('officers');
+  officersCollection.find().toArray(function (err, officers) {
+      if (err) {
+            res.status(500).send("Error fetching officers from DB.");
+	 } else {
+  		res.status(200).render('meetofficersPage',{
+		content: officers
+		});
+	}
   });
 });
 
 app.get('/aboutus', function(req, res, next){
-  res.status(200).render('aboutusPage');
+  res.status(200).render('aboutPage');
 });
 
 

@@ -323,56 +323,6 @@ font-family: 'Pontano Sans', sans-serif;*/
 	width: 40%;
 }
 
-
-
-.navbar {
-  background-color: #fff;
-  font-size: 18px;
-  line-height: 22px;
-  outline-width: thin;
-  outline-style: solid;
-  outline-color: black;
-  
-}
-
-.navlist {
-  margin: 0 0 0 20px;
-  padding: 0;
- 
-}
-
-
-body {
-  background-color: #f1f1f1;
-  margin: 5px;
-}
-
-.navlist li {
-  font-family: 'Roboto';
-  font-size: 12 px;
-  line-height: 40px;
-  height: 40px;
-  display: inline-block;
-  font-weight: 500;
-  margin:0;
-  padding-top: 0;
-  padding-right: 40px;
-  font-color: black;
-}
-
-
-a {
-  text-decoration: none;//removes line under nav texts ALSO THE NAV TEXT ISNT BLACK
-  color: black;
-  font-color: black;
-}
-
-.navbar-search{
-  float: right;//makes nav bar go to the complete right
-}
-
-
-
 .page-content{
 	font-family: 'Peddana', serif;
 }
