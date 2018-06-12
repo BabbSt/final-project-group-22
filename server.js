@@ -65,6 +65,17 @@ app.get('/blog', function(req, res, next){
   });
 });
 
+app.get('/meetofficers', function(req, res, next){
+  res.status(200).render('meetofficersPage',{
+	  officers:officer;
+  });
+});
+
+app.get('/aboutus', function(req, res, next){
+  res.status(200).render('aboutusPage');
+});
+
+
 app.use(express.static('public'));
 
 app.get('*', function (req, res) {
