@@ -290,3 +290,171 @@ font-family: 'Pontano Sans', sans-serif;*/
   margin-right: 300px;
   padding: 0px;
 }
+
+@import url(https://fonts.googleapis.com/css?family=Rochester);
+@import url(https://fonts.googleapis.com/css?family=Peddana);
+
+.site-title {
+  margin: auto;
+  padding: 0px 0px;
+  background-color: #fbfbfb;
+  font-size: 70px;
+  width: 100%;
+  position: static;
+
+}
+
+.site-title2 {
+	color: #000;
+	font-size: 40px;
+	height: 170px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 180px;
+}
+
+.site-title3 {
+	font-family: 'Rochester',cursive;
+	color: #000;
+	font-size: 70px;
+	font-weight: 100;
+	padding: 0px 50px;
+	width: 40%;
+}
+
+
+
+.navbar {
+  background-color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  outline-width: thin;
+  outline-style: solid;
+  outline-color: black;
+  
+}
+
+.navlist {
+  margin: 0 0 0 20px;
+  padding: 0;
+ 
+}
+
+
+body {
+  background-color: #f1f1f1;
+  margin: 5px;
+}
+
+.navlist li {
+  font-family: 'Roboto';
+  font-size: 12 px;
+  line-height: 40px;
+  height: 40px;
+  display: inline-block;
+  font-weight: 500;
+  margin:0;
+  padding-top: 0;
+  padding-right: 40px;
+  font-color: black;
+}
+
+
+a {
+  text-decoration: none;//removes line under nav texts ALSO THE NAV TEXT ISNT BLACK
+  color: black;
+  font-color: black;
+}
+
+.navbar-search{
+  float: right;//makes nav bar go to the complete right
+}
+
+
+
+.page-content{
+	font-family: 'Peddana', serif;
+}
+.about-subtitle{
+	
+}
+.about-image{
+	width: 500px;
+	height: 60px;
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	float: right;
+	
+}
+.about-image2{
+	width: 220px;
+	height: 250px;
+	float: right;
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 40px;
+
+}
+
+.about-image3{
+
+	width: 200px;
+	height: 250px;
+	float: right;
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 40px;
+}
+
+.page-text{
+	
+	width: 300 px;
+	
+}
+.page-content{
+	margin-top: 80px;
+	padding: 0px 50px;
+}
+
+.officers-image{
+	width: 200px;
+	height: 350px;
+	float: left;
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 40px;
+}
+
+.officers-image2{
+	width: 200px;
+	height: 440px;
+	float: left;
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 40px;
+}
+.officers-image3{
+	width: 220px;
+	height: 350px;
+	float: left;
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 40px;
+}
+.officers-image4{
+	width: 220px;
+	height: 350px;
+	float: left;
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 40px;
+}

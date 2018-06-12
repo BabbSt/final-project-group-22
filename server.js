@@ -78,6 +78,14 @@ app.post('/blog/addComment' , function (req, res, next) {
 	} else {
 	    res.status(400).send("Request needs a JSON body with author and comment.")
 	}
+app.get('/meetofficers', function(req, res, next){
+  res.status(200).render('meetofficersPage',{
+	content: officerData
+  });
+});
+
+app.get('/aboutus', function(req, res, next){
+  res.status(200).render('aboutusPage');
 });
 
 
