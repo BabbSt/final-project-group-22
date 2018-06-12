@@ -15,13 +15,36 @@ function clearCommentValues(){
 }
 
 function createComment(commentAuthor, commentText){
-  var commentData = {
+  /*var commentData = {
     author: commentAuthor,
     commentContent: commentText
   };
   var newComment = Handlebars.templates.blogcommentsContent(commentData);
   var commentContainer = document.querySelector('.blog-comments');
-  commentContainer.insertAdjacentHTML('beforeend', newComment);
+  commentContainer.insertAdjacentHTML('beforeend', newComment);*/
+  var request = new XMLHttpRequest();
+  var url = "blog" + "/addComment";
+  request.open("POST", url);
+  var requestBody = JSON.stringify({
+    author: commentAuthor,
+    commentContent: commentText
+  });
+  request.addEventListener('load', function(event){
+    if(event.target.status === 200){
+      var CommentTemplate = Handlebars.templates.blogcommentsContent;
+      var newCommentHTML = CommentTemplate({
+        author: commentAuthor,
+        commentContent: commentText
+      });
+      var commentContainer = document.querySelector('.blog-comments');
+      commentContainer.insertAdjacentHTML('beforeend', newCommentHTML);
+    }
+    else{
+      alert("Error Storing Comment" + event.target.response);
+    }
+  });
+  request.setRequestHeader('Content-Type', 'application/json');
+  request.send(requestBody);
 }
 
 window.addEventListener('DOMContentLoaded', function(){

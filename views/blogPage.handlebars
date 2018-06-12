@@ -3,9 +3,11 @@
     {{>blogpostContent this}}
   {{/each}}
   <div class="all-comment-stuff">
+    <div class="blog-comments">
     {{#each comment}}
       {{>blogcommentsContent this}}
     {{/each}}
+    </div>
     <div class="leave-a-comment">
       <div class="comment-input-element">
         <label for="comment-text-input">Comment text</label>
