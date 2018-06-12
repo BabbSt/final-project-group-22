@@ -67,9 +67,10 @@ app.get('/blog', function(req, res, next){
 
 app.get('/meetofficers', function(req, res, next){
   res.status(200).render('meetofficersPage',{
-	  officers:officer,
-	  offContent: officer-content,
-	  path: ImagePath
+	  officer: officers,
+	  officer-content: offContent,
+	  imagePath:path
+	  
   });
 });
 
