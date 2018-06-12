@@ -14,7 +14,7 @@
 				vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia 
 				aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, 
 				euismod in, nibh. Quisque volutpat condimentum velit.",
-	"imagePath":"photos/stephanie.jpg",
+	"imagePath":"images/stephanie.jpg",
 
 
 },
@@ -34,7 +34,7 @@
 				vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia 
 				aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, 
 				euismod in, nibh. Quisque volutpat condimentum velit.",
-	"imagePath":"photos/sumegha.jpg"
+	"imagePath":"images/sumegha.jpg"
 },
 
 {
@@ -52,7 +52,7 @@
 				vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia 
 				aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, 
 				euismod in, nibh. Quisque volutpat condimentum velit.",
-	"imagePath":"photos/claire.jpg"
+	"imagePath":"images/claire.jpg"
 	
 },
 
@@ -71,7 +71,7 @@
 				vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia 
 				aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, 
 				euismod in, nibh. Quisque volutpat condimentum velit.",
-	"imagePath":"photos/anjali.jpg"
+	"imagePath":"images/anjali.jpg"
 }
 
 ]
