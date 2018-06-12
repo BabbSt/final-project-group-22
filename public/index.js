@@ -23,7 +23,7 @@ function createComment(commentAuthor, commentText){
   var commentContainer = document.querySelector('.blog-comments');
   commentContainer.insertAdjacentHTML('beforeend', newComment);*/
   var request = new XMLHttpRequest();
-  var url = "blog" + "/addComment";
+  var url = "/blog" + "/addComment";
   request.open("POST", url);
   var requestBody = JSON.stringify({
     author: commentAuthor,
@@ -43,6 +43,7 @@ function createComment(commentAuthor, commentText){
       alert("Error Storing Comment" + event.target.response);
     }
   });
+  console.log(requestBody);
   request.setRequestHeader('Content-Type', 'application/json');
   request.send(requestBody);
 }

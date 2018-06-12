@@ -1,6 +1,7 @@
 var path = require('path');
 var express = require('express');
 var exphbs = require('express-handlebars');
+var bodyParser = require('body-parser' );
 var MongoClient = require('mongodb').MongoClient;
 var app = express();
 
@@ -16,6 +17,7 @@ var mongoDB =null;
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
+app.use(bodyParser.json());
 
 var port = process.env.PORT || 3028;
 
@@ -64,6 +66,20 @@ app.get('/blog', function(req, res, next){
 	}
   });
 });
+
+app.post('/blog/addComment' , function (req, res, next) {
+    console.log("body: "+req.body+" author: "+req.body.author+" content: "+req.body.commentContent);
+    if (req.body && req.body.author && req.body.commentContent) {
+  	var commentCollection=mongoDB.collection('comments');
+	commentCollection.insertOne({
+	      author: req.body.author,
+	      commentContent: req.body.commentContent
+	});
+	} else {
+	    res.status(400).send("Request needs a JSON body with author and comment.")
+	}
+});
+
 
 app.use(express.static('public'));
 
